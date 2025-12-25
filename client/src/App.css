@@ -322,17 +322,17 @@
 
 /* First about card — Self Improvement */
 .about-card:nth-child(1) .feature-icon::before {
-  content: '🐾';
+  content: '🧠';
 }
 
 /* Second about card — Growth*/
 .about-card:nth-child(2) .feature-icon::before {
-  content: '💡';
+  content: '🌱';
 }
 
 /* Third about card — Progress */
 .about-card:nth-child(3) .feature-icon::before {
-  content: '🚀';
+  content: '📈';
 }
 
 /* TEXT STYLING */
