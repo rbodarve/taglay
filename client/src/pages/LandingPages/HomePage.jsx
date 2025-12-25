@@ -1,111 +1,103 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import articles from '../../article-content';
+import heroVideo from '../../assets/dog_cat_hero.mp4';
 
 function HomePage() {
   const featuredArticles = articles.slice(0, 3);
 
   return (
-    <div className="page">
+    <>
       <section className="hero">
-        <div className="hero-copy">
-          <p className="eyebrow">Frontend studio</p>
-          <h1>Polished UI patterns without the corporate beige.</h1>
-          <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod posuere a aliquam
-            mattis ac sed nibh tincidunt non ultrices.
-          </p>
-          <div className="hero-actions">
-            <Link to="/articles" className="button-link primary">
-              Browse articles
-            </Link>
-            <Link to="/about" className="button-link secondary">
-              About the team
-            </Link>
-          </div>
-          <div className="stats">
-            <div className="stat">
-              <strong>{articles.length}+</strong>
-              <span>React breakdowns</span>
-            </div>
-            <div className="stat">
-              <strong>3</strong>
-              <span>UI micro-guides</span>
-            </div>
-            <div className="stat">
-              <strong>Zero</strong>
-              <span>fluff allowed</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="hero-visual">
-          <div className="hero-panel">
-            <img
-              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
-              alt="Design desk with colorful UI elements"
-            />
-            <p className="muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices in velit varius
-              rutrum vitae arcu.
+        <div className="hero-container">
+          <div className="hero-copy">
+            <p className="eyebrow">Stories. Care. Compassion.</p>
+            <h1>A voice for stray dogs & cats.</h1>
+            <p className="lead">
+              Sharing knowledge about animal care and welfare, 
+              and inspires readers to help, whether through adoption, volunteering, or simple kindness.
             </p>
+            <div className="hero-actions">
+              <Link to="/articles" className="button-link primary">
+                Browse articles
+              </Link>
+              <Link to="/about" className="button-link secondary">
+                About the project
+              </Link>
+            </div>
+            <div className="stats">
+              <div className="stat">
+                <strong>{articles.length}+</strong>
+                <span>Articles</span>
+              </div>
+              <div className="stat">
+                <strong>1</strong>
+                <span>Shared mission</span>
+              </div>
+              <div className="stat">
+                <strong>Zero</strong>
+                <span>Strays we want left behind</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="hero-visual">
+            <div className="hero-panel">
+              <video autoPlay loop muted playsInline >
+                <source src={heroVideo} type="video/mp4" />
+              </video>
+            </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <main className="main-content">
+        <section className="feature-section">
         <div className="section-heading">
           <div>
             <p className="eyebrow">Highlights</p>
-            <h2>What you get inside.</h2>
+            <h2>What you will learn here</h2>
           </div>
-          <span className="muted">Clean patterns, real-world snippets.</span>
         </div>
         <div className="feature-grid">
           <div className="feature-card">
-            <div className="feature-icon">UI</div>
-            <h3>Layout recipes</h3>
+            <div className="feature-icon"></div>
+            <h3>Learn to care, one paw at a time</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sed augue sem sit bibendum
-              at dui varius.
+              Insights about animal care, rescue, and welfare,
+              made for anyone who wants to help but does not know where to start.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">FE</div>
-            <h3>React clarity</h3>
+            <div className="feature-icon"></div>
+            <h3>Care starts with knowledge</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies suspendisse
-              pellentesque auctor habitant amet.
+              Understanding the lives of stray dogs <br/> and cats is the first step to change.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">UX</div>
-            <h3>Microcopy cues</h3>
+            <div className="feature-icon"></div>
+            <h3>Built on compassion</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis nisl ultricies
-              dignissim vulputate est.
+              The Pawradise Project is driven by care, awareness, and love for strays.
             </p>
           </div>
         </div>
-      </section>
+        </section>
 
-      <section className="articles-section">
+        <section className="articles-section">
         <div className="section-heading">
           <div>
             <p className="eyebrow">Articles</p>
-            <h2>Latest reads.</h2>
+            <h2>Most reads</h2>
           </div>
-          <Link to="/articles" className="button-link secondary">
+          <Link to="/articles" className="button-link primary">
             View all
           </Link>
         </div>
         <div className="article-preview-grid">
           {featuredArticles.map((article) => (
             <div key={article.name} className="article-preview">
-              <div className="article-meta">
-                <span className="pill">React</span>
-                <span className="muted">{article.content[0].substring(0, 30)}...</span>
-              </div>
               <h3>{article.title}</h3>
               <p>{article.content[0].substring(0, 150)}...</p>
               <Link to={`/articles/${article.name}`} className="button-link secondary">
@@ -114,8 +106,9 @@ function HomePage() {
             </div>
           ))}
         </div>
-      </section>
-    </div>
+        </section>
+      </main>
+    </>
   );
 }
 
