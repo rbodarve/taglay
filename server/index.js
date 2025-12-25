@@ -1,3 +1,6 @@
+console.log("Process ENV PORT:", process.env.PORT);
+console.log("Process ENV MONGO_URI:", process.env.MONGO_URI ? "SET" : "NOT SET");
+
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
