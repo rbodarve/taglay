@@ -1,67 +1,67 @@
 const articles = [
     {
-        name: "every-stray-has-story",
-        title: "Every Stray Has a Story: Understanding Life on the Streets",
+        name: "the-first-concert",
+        title: "The First Concert",
         content: [
-            "If you see a stray dog or cat on the street, it might look like they are used to being there. But most strays were not born on the streets. Many were once owned, lost, or left behind.",
-            "Life on the streets is hard. Stray animals face hunger, sickness, bad weather, and danger from cars or people. Some are afraid of humans because they have been hurt before.",
-            "In the Philippines, the Animal Welfare Act of 1998 (RA 8485) says that animals should be treated kindly and protected from pain and abuse.",
-            "They are living beings that deserve care and respect. By learning about their stories, we can help make their lives better."
+            "I’m not the type of person who goes to concerts often, so seeing IVE live in Manila in 2023 felt like a really big step for me. I’d only ever watched them through screens, so being there in person felt strange and exciting at the same time.",
+            "At first, the crowd was overwhelming. There were so many people, so much noise, and my heart was beating really fast. But once the music started and IVE came out, I kind of forgot about everything else and just focused on the stage.",
+            "I didn’t scream as loud as everyone else or sing every song, but I enjoyed it in my own quiet way. Just being there, listening, and watching them perform was already more than enough for me.",
+            "That night became really special to me. It was my first concert, my first time seeing IVE live, and a reminder that even as an introvert, I can step out of my comfort zone and still have a meaningful experience."
         ]
     },
     {
-        name: "the-pawradise-project-care-awareness",
-        title: "The Pawradise Project: Starting with Care and Awareness",
+        name: "the-second concert",
+        title: "The Second Concert",
         content: [
-            "This project is a space to learn, read, and understand the lives of stray dogs and cats.",
-            "Through articles and guides, the Pawradise Project hopes to help people who want to care, but do not know where to begin.",
-            "The Pawradise Project advocates for a paradise for paws, a better world for stray dogs and cats where they are safe, healthy, and loved."
+            "After my first concert experience, seeing IVE again in 2024 felt a little less scary and a little more familiar. I still felt nervous going in, but this time I knew what to expect.",
+            "I was more comfortable just standing there, listening, and taking everything in. I didn’t feel pressured to be loud or energetic—I let myself enjoy the concert quietly, in my own way.",
+            "The second concert felt warmer and more personal. Watching IVE again reminded me why I went in the first place, and it showed me that stepping out of my comfort zone can get easier over time."
         ]
     },
     {
-        name: "why-kindness-to-animals-is-legal-duty",
-        title: "Why kindness to animals is also a legal duty",
+        name: "highs-and-lows",
+        title: "The highs and lows of accomplishing goals",
         content: [
-            "Animal welfare is not just about being kind because it is also about following the law. The Animal Welfare Act of 1998 (RA 8485) exists to protect animals from abuse, cruelty, and neglect.",
-            "It covers all animals such as pets, farm and working animals, animals used in research, and stray and abandoned animals.",
-            "This law reminds us that animals should not be hurt or killed cruelly and humans have a responsibility to support and protect them.",
-            "Understanding this makes people realize that caring for stray animals is not optional. It is the right thing to do."
+            "As an introvert, deciding to walk all the way to SM Manila without using any transportation felt like a big challenge. At first, I was motivated and confident, thinking I could handle it on my own.",
+            "There were moments when it felt nice and rewarding—having time to think, noticing small details around me, and realizing I was actually making progress toward my goal.",
+            "But there were also low points. I got tired, doubted myself, and felt overwhelmed by the noise, heat, and number of people along the way.",
+            "By the end of it, I learned that accomplishing goals isn’t just about reaching the destination. It’s about pushing through discomfort, understanding your limits, and realizing that even small victories count."
         ]
     },
     {
-        name: "helping-stray-dogs-cats",
-        title: "Helping stray dogs and cats does not have to be hard",
+        name: "introvert-navigation",
+        title: "Navigating Manila as an Introvert",
         content: [
-            "Many people want to help stray dogs and cats but feel unsure where to start.",
-            "The good news is, you do not need money or special skills to help.",
-            "The following are some simple ways you can make a difference: giving clean water, especially on hot days, sharing leftover food safely, and spreading awareness about stray animal welfare in your community.",
-            "You do not have to rescue every animal you see.",
-            "Even simple kindness is sometimes enough to keep them alive."
+            "For an introvert, strolling around Manila for the first time can feel intimidating. There are so many people, sounds, and things happening all at once, and it can be hard to know where to begin.",
+            "One of the good parts is that you get to move at your own pace. Walking alone gives you time to think, observe, and appreciate small moments without having to talk to anyone.",
+            "However, there are also challenges. The noise, crowded sidewalks, and unexpected interactions can feel overwhelming and draining after a while.",
+            "I learned that you don’t have to see everything or stay out for long. Taking breaks, choosing quieter streets, and knowing when to head home makes the experience more manageable.",
+            "Even a short stroll can be enough. It’s not about doing everything, but about slowly building confidence in your own way."
         ]
     },
     {
-        name: "what-to-do-if-you-see-injured-stray-animal",
-        title: "What to do if you see an injured stray animal",
+        name: "city-traffic",
+        title: "Transporatation Woes",
         content: [
-            "Seeing an injured dog or cat can be scary, especially if you do not know what to do.",
-            "The most important and first thing to do is to stay calm.",
-            "Here are first aid steps you can take: approach the animal slowly and gently, speak in a soft voice to avoid scaring them further, and call a local veterinarian, animal rescue group, or barangay office.",
-            "You do not have to treat the injury yourself.",
-            "Asking for help and reporting the situation is already a responsible and caring action."
+            "Taking public transportation around Manila for the first time was intimidating for me as an introvert. I worried about getting lost, asking questions, and being surrounded by so many people.",
+            "The most important thing I learned was to stay calm. Once I stopped overthinking and focused on where I needed to go, things became a little easier.",
+            "There were some good parts too. Public transportation was affordable, practical, and helped me reach places faster than walking, especially when the distance was far.",
+            "But there were downsides. The crowds, noise, traffic, and occasional confusion were tiring and sometimes overwhelming.",
+            "In the end, I realized I didn’t have to be perfect at it. Even trying and getting through the trip on my own felt like a small but meaningful win."
         ]
     },
     {
-        name: "why-spaying-neutering-stray-dogs-and-cats-matters",
-        title: "Why spaying and neutering stray dogs and cats matters",
+        name: "difference-manila-province",
+        title: "The difference between Manila and the Province",
         content: [
-            "Many stray dogs and cats are born on the streets.",
-            "One female dog or cat can have many babies in a short time, and most of them will also end up homeless.",
-            "This is one of the main reasons why the number of strays keeps growing in the Philippines.",
-            "Spaying and neutering mean stopping animals from having more babies.",
-            "It does not make them weak or less loving. In fact, it helps them live healthier and calmer lives.",
-            "Many local vets, LGUs, and animal groups offer low-cost or free spay and neuter programs.",
-            "Helping spread information about these programs is already a big help.",
-            "Spaying and neutering give stray dogs and cats a better chance at a safer life."
+            "As an introvert, transportation in Manila feels very different compared to transportation in province cities. Manila is fast-paced, crowded, and always noisy, which can feel overwhelming at first.",
+            "In many provinces, transportation feels simpler and calmer. There are fewer people, less traffic, and drivers are often more patient, making trips feel less stressful.",
+            "In Manila, you often have to be more alert—lining up, watching your belongings, and keeping track of multiple routes all at once.",
+            "The advantage of Manila is convenience. There are many transportation options, and places are closer together, which can save time.",
+            "In the province, trips may take longer, but they feel more relaxed and predictable.",
+            "Experiencing both made me realize that neither is better or worse—it really depends on what you are used to and what you value.",
+            "For an introvert, learning how to adjust and prepare makes navigating Manila easier over time.",
+            "Understanding these differences helped me feel less anxious and more confident when traveling in the city."
         ]
     }
 ];

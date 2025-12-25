@@ -19,10 +19,10 @@ function HomePage() {
             </p>
             <div className="hero-actions">
               <Link to="/articles" className="button-link primary">
-                Browse articles
+                Browse Articles
               </Link>
               <Link to="/about" className="button-link secondary">
-                About the project
+                About the Project
               </Link>
             </div>
             <div className="stats">
