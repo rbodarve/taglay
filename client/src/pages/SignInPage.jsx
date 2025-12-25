@@ -39,7 +39,7 @@ const SignInPage = () => {
 
             <div className="auth-card">
                 <div className="auth-card-header">
-                    <h2>Sign in</h2>s
+                    <h2>Sign in</h2>
                     <p className="muted">Use your email and password to continue.</p>
                 </div>
                 <form className="auth-form" onSubmit={handleLogin}>

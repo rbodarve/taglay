@@ -2,8 +2,8 @@
 
 :root {
   /* Primary Colors */
-  --color-primary: #61DBFB;
-  --color-primary-dark: #00A7D3;
+  --color-primary: #61fbc2;
+  --color-primary-dark: #00d37f;
   --color-primary-light: #95E8FF;
   --color-secondary: #F8F8F8;
   
@@ -26,7 +26,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(150% 100% at 30% 35%, #EFECE3 10%, #198bc8 95%, #FDF5AA 100%);
+    radial-gradient(150% 100% at 30% 35%, #EFECE3 10%, #19c868 95%, #FDF5AA 100%);
   color: var(--color-text-primary);
   font-family: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
   font-size: 16px;
@@ -131,7 +131,7 @@ img {
   padding: 6px 12px;
   border-radius: 999px;
   background: #e0f2fe;
-  color: #0ea5e9;
+  color: #0ee98e;
   font-weight: 600;
   font-size: 0.85rem;
 }
@@ -153,19 +153,19 @@ img {
 .button-link.primary {
   background: var(--color-primary-dark);
   color: var(--color-text-light);
-  box-shadow: 0 15px 30px rgba(97, 219, 251, 0.25);
+  box-shadow: 0 15px 30px rgba(97, 251, 207, 0.25);
 }
 
 .button-link.primary:hover {
   color: var(--color-text-primary);
-  box-shadow: 0 15px 32px rgba(0, 167, 211, 0.3);
+  box-shadow: 0 15px 32px rgba(0, 211, 158, 0.3);
 }
 
 .button-link.secondary {
   background: transparent;
   color: var(--color-primary-dark);
   border-color: var(--color-primary);
-  box-shadow: 0 15px 30px rgba(97, 219, 251, 0.25);
+  box-shadow: 0 15px 30px rgba(97, 251, 171, 0.25);
 }
 
 .button-link.secondary:hover {

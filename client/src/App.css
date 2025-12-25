@@ -86,7 +86,7 @@
 .stat {
   padding: 12px 14px;
   border-radius: 12px;
-  background: #f8ee84;
+  background: #84f895;
   border: 1px solid var(--border);
   min-width: 150px;
 }
@@ -192,7 +192,7 @@
   display: grid;
   place-items: center;
   background: linear-gradient(100deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-  box-shadow: 0 8px 24px rgba(0, 167, 211, 0.18);
+  box-shadow: 0 8px 24px rgba(39, 0, 211, 0.18);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   flex-shrink: 0;
   overflow: hidden;
@@ -218,7 +218,7 @@
 }
 
 .feature-card:hover .feature-icon {
-  box-shadow: 0 12px 32px rgba(0, 167, 211, 0.28);
+  box-shadow: 0 12px 32px rgba(39, 0, 211, 0.18);
   transform: scale(1.08);
 }
 
@@ -265,7 +265,7 @@
 .cta-banner {
   padding: 20px;
   border-radius: var(--radius);
-  background: linear-gradient(120deg, #0ea5e9, #0284c7);
+  background: linear-gradient(120deg, #e90e74, #c7027b);
   display: grid;
   gap: 8px;
   box-shadow: 0 18px 40px rgba(14, 165, 233, 0.25);
@@ -299,7 +299,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #ffd93d; /* pin dot */
+  background: #3dff50; /* pin dot */
 }
 /* ICON: soft badge */
 .about-card .feature-icon {
@@ -320,19 +320,19 @@
   line-height: 1;
 }
 
-/* First about card — Care & Compassion */
+/* First about card — Self Improvement */
 .about-card:nth-child(1) .feature-icon::before {
-  content: '🐕';
+  content: '🐾';
 }
 
-/* Second about card — Awareness & Learning */
+/* Second about card — Growth*/
 .about-card:nth-child(2) .feature-icon::before {
-  content: '🐈';
+  content: '💡';
 }
 
-/* Third about card — Love & Kindness */
+/* Third about card — Progress */
 .about-card:nth-child(3) .feature-icon::before {
-  content: '💛';
+  content: '🚀';
 }
 
 /* TEXT STYLING */

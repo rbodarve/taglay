@@ -55,7 +55,7 @@ function ArticleListPage() {
       <div className="cta-banner">
         <h3>Looking for more?</h3>
         <p>
-          Learn how The Pawradise Project began. Read our story.
+          Discover how Renaire started his self improvement journey.
         </p>
         <Link to="/about" className="button-link article-about">
           About the project

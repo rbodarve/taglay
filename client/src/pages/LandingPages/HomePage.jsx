@@ -11,11 +11,11 @@ function HomePage() {
       <section className="hero">
         <div className="hero-container">
           <div className="hero-copy">
-            <p className="eyebrow">Stories. Care. Compassion.</p>
-            <h1>A voice for stray dogs & cats.</h1>
+            <p className="eyebrow">Self Improvement. Growth. Progress.</p>
+            <h1>Personal Project of Renaire Odarve</h1>
             <p className="lead">
-              Sharing knowledge about animal care and welfare, 
-              and inspires readers to help, whether through adoption, volunteering, or simple kindness.
+              Sharing progress of his self improvement journey to 
+              inspire others, while also helping himself for self improvement.
             </p>
             <div className="hero-actions">
               <Link to="/articles" className="button-link primary">
@@ -31,12 +31,12 @@ function HomePage() {
                 <span>Articles</span>
               </div>
               <div className="stat">
-                <strong>1</strong>
-                <span>Shared mission</span>
+                <strong>29%</strong>
+                <span>Progress</span>
               </div>
               <div className="stat">
-                <strong>Zero</strong>
-                <span>Strays we want left behind</span>
+                <strong>9</strong>
+                <span>Goals still to accomplish</span>
               </div>
             </div>
           </div>
@@ -56,30 +56,29 @@ function HomePage() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Highlights</p>
-            <h2>What you will learn here</h2>
+            <h2>Goals Accomplished</h2>
           </div>
         </div>
         <div className="feature-grid">
           <div className="feature-card">
             <div className="feature-icon"></div>
-            <h3>Learn to care, one paw at a time</h3>
+            <h3>Attend a Concert</h3>
             <p>
-              Insights about animal care, rescue, and welfare,
-              made for anyone who wants to help but does not know where to start.
+              Able to go to a concert without help despite social anxiety.
             </p>
           </div>
           <div className="feature-card">
             <div className="feature-icon"></div>
-            <h3>Care starts with knowledge</h3>
+            <h3>Go to a Mall</h3>
             <p>
-              Understanding the lives of stray dogs <br/> and cats is the first step to change.
+              Able to go to a mall and walk alone without help despite social anxiety.
             </p>
           </div>
           <div className="feature-card">
             <div className="feature-icon"></div>
-            <h3>Built on compassion</h3>
+            <h3>None</h3>
             <p>
-              The Pawradise Project is driven by care, awareness, and love for strays.
+              Need more goals to accomplish.
             </p>
           </div>
         </div>
